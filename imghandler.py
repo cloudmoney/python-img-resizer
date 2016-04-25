@@ -11,4 +11,4 @@ def resize_img():
     wpercent = (basewidth / float(img.size[0])) 
     hsize = int((float(img.size[1]) * float(wpercent)))
     img = img.resize((basewidth, hsize), PIL.Image.ANTIALIAS)
-    img.save('/home/tol2/Downloads/media.gif')   #Optionally, you can save the resized image in a new path to keep the original image
+    img.save('/home/tol2/Downloads/media.gif')   #Optionally, you can save the resized image under a new name to keep the original image
